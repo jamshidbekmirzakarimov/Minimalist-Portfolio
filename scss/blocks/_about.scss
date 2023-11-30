@@ -48,7 +48,7 @@
 }
 
 .info-about__link {
-    max-width: 204px;
+    max-width: 234px;
     @include link-unstyle(inline-block);
     margin-bottom: 51px;
     padding: 16px 30px 16px 31px;
@@ -60,6 +60,7 @@
     transition: 0.3s ease;
     text-transform: uppercase;
     overflow-wrap: break-word;
+    white-space: nowrap;
     &:hover {
         color: #fafafa;
         background-color: #33323d;
